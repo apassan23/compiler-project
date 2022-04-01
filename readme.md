@@ -23,9 +23,8 @@ switch(expression){
 Run the following commands:
 
 ```shell
-flex switch.l
-bison -yd switch.y
-gcc lex.yy.c y.tab.c -o switch
+chmod +x run.sh
+./run.sh
 ```
 
 For the running the file, you can:
